@@ -8,7 +8,7 @@ terminal('''printf " ___            _ _
  | || '_ \ \ / / | __/ _ \ '__|
  | || | | \ V /| | ||  __/ |
 |___|_| |_|\_/ |_|\__\___|_|\nСоздатель >> @Dently (Telegram)"''')
-terminal('printf "\e[1;91m"')
+terminal('printf "\e[1;91m\n"')
 
 from pyrogram import Client as client, idle as idle
 from pyrogram.raw.functions.messages import GetAllChats as GetAllChats
